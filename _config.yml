@@ -17,7 +17,7 @@ title: Ga的个人小站
 email: 505547980@qq.com
 description:  简单的个人小站 
          
-baseurl: / # the subpath of your site, e.g. /blog
+baseurl: "http://ga20.github.io/blog" # the subpath of your site, e.g. /blog
 url: "http://example.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  505547980@qq.com
