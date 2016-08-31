@@ -69,7 +69,7 @@ input,select,textarea{
 @media only screen and (max-width: 630px)
 {
 	.de-image img{
-		display: none;
+		height: 240px;
           
 	}
 	.de-nav{
