@@ -1,3 +1,113 @@
-div{
-	background-color: blue;
+*{
+	padding: 0;
+	margin:0;
 }
+a{
+	text-decoration: none;
+	color: #6495ED;	
+}
+li{
+	list-style: none;
+}
+input,select,textarea{
+   outline:none;
+   border: none;
+   background: none;/*for ie6*/
+}
+.fl{float:left;}
+.fr{float: right;}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.clearfix{
+	zoom:1;
+}
+/*  头部不变部分 */
+#de-top{
+	width: 100%;
+	height: 50px;
+	background-color: #F5F5F5;
+	position: fixed;
+	z-index:99;
+	
+}
+.de-image img{
+	opacity: 0.9;
+	-webkit-opacity:0.9;
+	-moz-opacity:0.9;
+	-o-opacity:0.9;
+	-ms-opacity:0.9;
+	margin:50px 0;
+
+	width: 100%;
+	height: 500px;
+}
+.de-nav{
+	width: 20%;
+	margin: 0 40%;
+	cursor: pointer;
+}
+.de-nav a{
+	line-height: 50px;
+	padding: 0 17%;
+	color: black;
+}
+.de-nav a:hover{
+	color: white;
+	background-color: black;
+}
+.nav-l{
+	float: left;
+}
+.nav-r{
+	float: right;
+}
+
+/* 头部响应式*/
+@media only screen and (max-width: 630px)
+{
+	.de-image img{
+		height: 240px;
+          
+	}
+	.de-nav{
+		width: 25%;
+		
+	}
+	.de-nav a{
+		line-height: 50px;
+        padding: 0;
+	}
+	.de-content{
+  margin: 0 5%;
+}
+}
+
+/* 内容部分样式 */
+.de-content{
+  margin:0 5%;
+}
+.home .page-heading{
+   border-bottom: 2px solid black;
+   font-size: 1.2em;
+   margin:0 0 20px 0 ; 
+}
+.post-div{
+	position: relative;
+	border-bottom: 2px solid black;
+}
+.page-heading{
+
+}
+.post-list{
+}
+.post-meta{
+	position:absolute;
+	right: 0;
+}
+
+
+
+
