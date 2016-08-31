@@ -94,9 +94,8 @@ input,select,textarea{
    font-size: 1.2em;
    margin:0 0 20px 0 ; 
 }
-.post-div{
-	position: relative;
-	border-bottom: 2px solid black;
+.post-div h2{
+	display: inline-block;
 }
 .page-heading{
 
@@ -104,8 +103,7 @@ input,select,textarea{
 .post-list{
 }
 .post-meta{
-	position:absolute;
-	right: 0;
+	
 }
 
 
