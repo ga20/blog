@@ -1,17 +1,5 @@
 var doc = document;
-function showboxshadow() {
-    var navbar = doc.getElementById('de-top');
-    window.addEventListener("scroll", function() {
-        var boxOntop = document.documentElement.scrollTop || document.body.scrollTop;
-        if (boxOntop == 0) {
-            navbar.style.boxShadow = "none";
-        } else {
-            navbar.style.boxShadow = "0px 2px 10px #888888";
-            
-        }
 
-    });
-}
 
 function toTop() {
     var timer = null;
@@ -49,16 +37,8 @@ function getrandom(){
 	
 	var wan=Math.floor(Math.random()*10);
 	var imgarray=[1,2,3,4,5,6,7,8,9];
-	var img=document.getElementById("bgimg");
-	if(wan>=0&&wan<=8)
-    {
-	img.setAttribute("src","/../image/image"+imgarray[wan]+".jpg");
-  }
-     else
-     {
-     	wan=5;
-     	img.setAttribute("src","/../image/image"+imgarray[wan]+".jpg");
-     }
+	var img=document.getElementById("header");
+
     
 }
 
