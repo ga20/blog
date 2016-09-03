@@ -3,23 +3,21 @@ layout: default
 ---
 
 <div class="home">
- <div class="h-h1">
-  <p class="page-heading" >文章列表</p>
-  </div>
 
+  <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
-  <div class="post-div">
     {% for post in site.posts %}
-     <li><h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
+      <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h2>
       </li>
-    {% endfor %}  
-    </div>
+    {% endfor %}
   </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
