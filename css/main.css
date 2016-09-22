@@ -63,6 +63,13 @@ input,select,textarea{
 	margin: 50px 40px;
 
 }
+.content p {
+	text-indent: 30px;
+}
+.content ul
+{
+
+}
 .content .post-meta{
 	float: right;
 }
@@ -145,10 +152,11 @@ input,select,textarea{
 }
 .ab-text {
 	float: left;
+	margin-left:50px; 
 }
 .ab-text p{
    font-size: 18px;
-   margin: 10px;
+   margin:10px 0;
   
 }
 .ab-img{
@@ -174,6 +182,7 @@ margin-left: 400px;
      }
       .ab-text{
 	float: none;
+	margin-left:0; 
      }
      .ab-img{
      	float: none;
@@ -181,6 +190,7 @@ margin-left: 400px;
      }
 	.ab-img img{
 		float: none;
+		margin-top: 50px;
 		width: 110px;
 		height: 150px;
 	}
