@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Young and free {{ page.title }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="Keywords" content="个人博客 前端开发 移动端开发 技术分享">
+    <meta name="Description" content="浅白的个人博客">
+    <link rel="stylesheet" type="text/css" href="/../css/main.css">
+    <link rel="shortcut icon" href="/../image/mine.ico">
+</head>
+
+<body>
+    <div>
+        <div id="header">
+           <ul> 
+         <li><a href="/../index.html">主页</a></li>
+         <li> <a href="/../about.html">关于我</a></li> 
+          </ul>
+        </div>
+        <div class="content">
+            {{content}}
+        </div>
+        <div class="duoshuo">
+            <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="{{post.path}}" data-title="{{post.title}}" data-url="{{post.url}}"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"gagag"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+<!-- 多说公共JS代码 end -->
+
+        </div>
+        <div id="po-footer">
+           <span><p>2016 浅白 @copyright</p></span>
+        </div>
+    </div>
+    <script type="text/javascript" src="/../js/main.js"></script>
+</body>
+
+</html>
