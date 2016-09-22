@@ -63,12 +63,14 @@ input,select,textarea{
 	margin: 50px 40px;
 
 }
-.content p {
+.content p{
 	text-indent: 30px;
+	font-size: 18px;
+	margin:5px 0;
 }
-.content ul
-{
 
+.po li{
+   list-style: disc;
 }
 .content .post-meta{
 	float: right;
@@ -162,6 +164,7 @@ input,select,textarea{
 .ab-img{
 	float: left;
 margin-left: 400px;
+margin-bottom: 300px;
 }
 
 .ab-img img{
@@ -175,7 +178,12 @@ margin-left: 400px;
 }
 @media only screen and  (max-width:500px )
 {   
-
+     body{
+     	font-size: 20px;
+     }
+     .po p{
+     	font-size: 22px;
+     }
      .ab-content{
 	margin: 30px 30px 0 30px ;
 	overflow: hidden;
