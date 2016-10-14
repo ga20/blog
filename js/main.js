@@ -41,3 +41,4 @@ function toTop(){
 		   },20);
   }
 }
+toTop();
